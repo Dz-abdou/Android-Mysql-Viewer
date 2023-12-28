@@ -1,0 +1,16 @@
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/addConnectionToolbar"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:elevation="10dip"
+    android:minHeight="?attr/actionBarSize"
+    app:menu="@menu/add_connection_toolbar_menu"
+    app:theme="@style/MyThemeOverlay_Toolbar"
+    app:title="@string/add_connection_toolbar_title"
+    app:navigationIcon="@drawable/ic_baseline_cancel_24"
+    android:background="@color/darkPurple"
+    app:titleTextColor="@color/iconGray">
+</com.google.android.material.appbar.MaterialToolbar>

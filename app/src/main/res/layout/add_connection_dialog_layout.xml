@@ -1,0 +1,179 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appDarkGray">
+
+    <!-- This LinearLayout represents the contents of the screen  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- The ActionBar displayed at the top -->
+        <include
+            layout="@layout/add_connection_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/ipAddressTl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginEnd="10dip"
+                    android:layout_marginTop="10dip"
+                    android:elevation="10dip"
+                    app:boxCornerRadiusTopEnd="5dip"
+                    app:boxCornerRadiusTopStart="5dip"
+                    android:hint="@string/ip_address_et_hint"
+                    android:textColorHint="@color/hintTextColor"
+                    app:hintTextColor="@color/darkPurple"
+                    app:boxBackgroundColor="@color/appGray"
+                    app:boxCornerRadiusBottomEnd="5dip"
+                    app:boxCornerRadiusBottomStart="5dip"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/ipAddressTf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/iconGray"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:fontFamily="@font/roboto_medium"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/portTl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginEnd="10dip"
+                    android:elevation="10dip"
+                    app:boxCornerRadiusTopEnd="5dip"
+                    app:boxCornerRadiusTopStart="5dip"
+                    android:hint="@string/port_et_hint"
+                    android:textColorHint="@color/hintTextColor"
+                    app:hintTextColor="@color/darkPurple"
+                    app:boxBackgroundColor="@color/appGray"
+                    app:boxCornerRadiusBottomEnd="5dip"
+                    app:boxCornerRadiusBottomStart="5dip"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/portTF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/iconGray"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:fontFamily="@font/roboto_medium"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/databaseTl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginEnd="10dip"
+                    android:elevation="10dip"
+                    app:boxCornerRadiusTopEnd="5dip"
+                    app:boxCornerRadiusTopStart="5dip"
+                    android:hint="@string/database_name_et_hint"
+                    android:textColorHint="@color/hintTextColor"
+                    app:hintTextColor="@color/darkPurple"
+                    app:boxBackgroundColor="@color/appGray"
+                    app:boxCornerRadiusBottomEnd="5dip"
+                    app:boxCornerRadiusBottomStart="5dip"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/databaseTF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/iconGray"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:fontFamily="@font/roboto_medium"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/userTl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginEnd="10dip"
+                    android:elevation="10dip"
+                    app:boxCornerRadiusTopEnd="5dip"
+                    app:boxCornerRadiusTopStart="5dip"
+                    android:hint="@string/user_et_hint"
+                    android:textColorHint="@color/hintTextColor"
+                    app:hintTextColor="@color/darkPurple"
+                    app:boxBackgroundColor="@color/appGray"
+                    app:boxCornerRadiusBottomEnd="5dip"
+                    app:boxCornerRadiusBottomStart="5dip"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/userTF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/iconGray"
+                        android:maxLines="1"
+                        android:inputType="text"
+                        android:fontFamily="@font/roboto_medium"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passwordTl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginEnd="10dip"
+                    android:elevation="10dip"
+                    app:boxCornerRadiusTopEnd="5dip"
+                    app:boxCornerRadiusTopStart="5dip"
+                    android:hint="@string/password_et_hint"
+                    android:textColorHint="@color/hintTextColor"
+                    app:hintTextColor="@color/darkPurple"
+                    app:boxBackgroundColor="@color/appGray"
+                    app:boxCornerRadiusBottomEnd="5dip"
+                    app:boxCornerRadiusBottomStart="5dip"
+                    app:endIconMode="password_toggle"
+                    app:errorEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/passwordTF"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/iconGray"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:fontFamily="@font/roboto_medium"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

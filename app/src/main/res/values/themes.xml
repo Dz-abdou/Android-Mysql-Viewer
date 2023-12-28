@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MySql" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/lightPurple</item>
+        <item name="colorPrimaryVariant">@color/darkPurple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightPurple</item>
+        <item name="colorSecondaryVariant">@color/darkPurple</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="MyThemeOverlay_Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- color used by navigation icon and overflow icon -->
+        <item name="titleTextColor">@color/iconGray</item>
+        <item name="colorOnPrimary">@color/iconGray</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:background">@color/appDarkGray</item>
+        <item name="colorAccent">@color/darkPurple</item>
+    </style>
+</resources>

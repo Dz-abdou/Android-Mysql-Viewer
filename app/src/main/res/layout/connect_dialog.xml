@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dip"
+    android:background="@color/appDarkGray"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/connectPasswordEl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dip"
+        android:layout_marginEnd="10dip"
+        android:layout_marginTop="10dip"
+        android:elevation="10dip"
+        app:boxCornerRadiusTopEnd="5dip"
+        app:boxCornerRadiusTopStart="5dip"
+        android:hint="@string/password_et_hint"
+        android:textColorHint="@color/hintTextColor"
+        app:hintTextColor="@color/darkPurple"
+        app:boxBackgroundColor="@color/appGray"
+        app:boxCornerRadiusBottomEnd="5dip"
+        app:boxCornerRadiusBottomStart="5dip"
+        app:endIconMode="password_toggle"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/connectPasswordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/iconGray"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

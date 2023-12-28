@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/common_food_item_bg.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/header_bg.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_content_copy_24.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_grid_on_24.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_baseline_table_rows_24.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_database.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_database_purple.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_database_search.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_menu.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_mysql.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_mysql_logo.xml" value="0.124" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_profile_svgrepo_com.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_server.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_table.xml" value="0.162" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/ic_user.xml" value="0.1625" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/drawable/recycler_view_item_bg.xml" value="0.1745" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout-v23/connection_item.xml" value="0.1125" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout-v23/databases_recyclerview_item.xml" value="0.1125" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/activity_database.xml" value="0.264" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/add_connection_dialog_layout.xml" value="0.2" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/add_connection_layout.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/add_connection_toolbar.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/app_bar_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/columns_recycler_view_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/connect_dialog.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/connection_item.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/database_activity_toolbar.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/databases_recyclerview_item.xml" value="0.2" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/fragment_connections.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/fragment_mysql_database.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/fragment_table_records.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/fragment_tables.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/header.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/records_recycler_view_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/records_recycler_view_item2.xml" value="0.2" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/records_recycler_view_item_item.xml" value="0.536" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/records_recycler_view_item_tem.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/table_view_cell.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/table_view_column_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/table_view_corner_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/table_virw_row_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/tables_recyclerview_item.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/layout/toolbar.xml" value="0.24547101449275363" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/add_connection_toolbar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/connection_item_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/main_menu.xml" value="0.152" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/main_menu2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/nav_drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/abden/AndroidStudioProjects/MySql/app/src/main/res/menu/navigation_drawer_menuy.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
